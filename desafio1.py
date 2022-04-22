@@ -11,7 +11,7 @@ ancho = int(input("ingresa el alto: "))
 A = str(input("Ingresa caracter: "))
 prim = ancho + 1
 first = " " * prim
-contador=0
+contador = 0
 
 
 print("" + first + A)
@@ -22,13 +22,13 @@ if ancho > 1:
         print(" " * k, contador * A + " ".join(A) + contador * A)
         contador = contador + 1
 else:
-            
+
     while contador != abs(ancho):
-        
+
         k = ancho + contador
         print(" " * k, contador * A + " ".join(A) + contador * A)
         contador = contador + 1
-        
+
 
 # " "+A*contador
-#contador=alto +1
+# contador=alto +1
