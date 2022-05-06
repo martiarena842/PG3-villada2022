@@ -6,15 +6,18 @@ class operaciones:
         self.restar()
         self.multiplicar()
         self.dividir()
+
     def sumar(self):
         print("La suma es: ", self.num1 + self.num2)
+
     def restar(self):
         print("La resta es: ", self.num1 - self.num2)
+
     def multiplicar(self):
         print("La multiplicacion es: ", self.num1 * self.num2)
+
     def dividir(self):
         print("La division es: ", self.num1 / self.num2)
-
 
 
 operacion1 = operaciones()
